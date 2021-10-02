@@ -49,14 +49,3 @@ Link : http://127.0.0.1:3000/api/hug
     url: "http://127.0.0.1:3000/images/hug/hug_087.gif"
 }
 ```
-
-# Install
-```bash
-root@toshinokyoko:~$ git clone https://github.com/Eilaluth/Kyoko.git
-root@toshinokyoko:~$ cd Kyoko
-root@toshinokyoko:~$ npm install
-root@toshinokyoko:~$ npm start
-```
-
-# Note
-You can changes port or add ssl licence in /bin/www
