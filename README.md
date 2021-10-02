@@ -30,7 +30,7 @@ Random Anime Slap <br/>
 Link : https://api.rei.my.id/api/slap
 ```bash
 {
-    url: "http://127.0.0.1:3000/images/slap/slap_008.gif"
+    url: "https://api.rei.my.id/images/slap/slap_008.gif"
 }
 ```
 
@@ -38,7 +38,7 @@ Random Anime Kiss <br/>
 Link : https://api.rei.my.id/api/kiss
 ```bash
 {
-    url: "http://127.0.0.1:3000/images/kiss/kiss_136.gif"
+    url: "https://api.rei.my.id/images/kiss/kiss_136.gif"
 }
 ```
 
@@ -46,6 +46,6 @@ Random Anime Hug <br/>
 Link : https://api.rei.my.id/api/hug
 ```bash
 {
-    url: "http://127.0.0.1:3000/images/hug/hug_087.gif"
+    url: "https://api.rei.my.id/images/hug/hug_087.gif"
 }
 ```
