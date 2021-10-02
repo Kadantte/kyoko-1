@@ -16,7 +16,7 @@ Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one c
 # Example Result
 
 Random Anime Quotes <br/>
-Link : http://127.0.0.1:3000/api/quotes
+Link : https://api.rei.my.id/api/quotes
 ```bash
 {
     quote: "Just because I've gotten weaker, it doesn't mean that you've gotten stronger, right?",
@@ -27,7 +27,7 @@ Link : http://127.0.0.1:3000/api/quotes
 ```
 
 Random Anime Slap <br/>
-Link : http://127.0.0.1:3000/api/slap
+Link : https://api.rei.my.id/api/slap
 ```bash
 {
     url: "http://127.0.0.1:3000/images/slap/slap_008.gif"
@@ -35,7 +35,7 @@ Link : http://127.0.0.1:3000/api/slap
 ```
 
 Random Anime Kiss <br/>
-Link : http://127.0.0.1:3000/api/kiss
+Link : https://api.rei.my.id/api/kiss
 ```bash
 {
     url: "http://127.0.0.1:3000/images/kiss/kiss_136.gif"
@@ -43,7 +43,7 @@ Link : http://127.0.0.1:3000/api/kiss
 ```
 
 Random Anime Hug <br/>
-Link : http://127.0.0.1:3000/api/hug
+Link : https://api.rei.my.id/api/hug
 ```bash
 {
     url: "http://127.0.0.1:3000/images/hug/hug_087.gif"
