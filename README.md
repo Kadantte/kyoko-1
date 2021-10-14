@@ -49,3 +49,24 @@ Link : https://api.rei.my.id/api/hug
     url: "https://api.rei.my.id/images/hug/hug_087.gif"
 }
 ```
+# Troubleshooting
+
+- AXIOS => Error: unable to verify the first certificate
+
+```javascript
+// copied from https://github.com/axios/axios/issues/535
+const instance = axios.create({
+  httpsAgent: new https.Agent({  
+    rejectUnauthorized: false
+  })
+});
+instance.get('https://api.rei.my.id/api/something');
+
+// At request level
+const agent = new https.Agent({  
+  rejectUnauthorized: false
+});
+axios.get('https://api.rei.my.id/api/something', { httpsAgent: agent });
+
+```
+
