@@ -16,7 +16,7 @@ Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one c
 # Example Result
 
 Random Anime Quotes <br/>
-Link : https://api.rei.my.id/api/quotes <br/>
+Link : http://api.rei.my.id/api/quotes <br/>
 Note : you can use https but if something error with the certificate i recommend to use http instead
 ```bash
 {
@@ -28,7 +28,7 @@ Note : you can use https but if something error with the certificate i recommend
 ```
 
 Random Anime Slap <br/>
-Link : https://api.rei.my.id/api/slap <br/>
+Link : http://api.rei.my.id/api/slap <br/>
 Note : you can use https but if something error with the certificate i recommend to use http instead
 ```bash
 {
@@ -37,7 +37,7 @@ Note : you can use https but if something error with the certificate i recommend
 ```
 
 Random Anime Kiss <br/>
-Link : https://api.rei.my.id/api/kiss <br/>
+Link : http://api.rei.my.id/api/kiss <br/>
 Note : you can use https but if something error with the certificate i recommend to use http instead
 ```bash
 {
@@ -46,7 +46,7 @@ Note : you can use https but if something error with the certificate i recommend
 ```
 
 Random Anime Hug <br/>
-Link : https://api.rei.my.id/api/hug <br/>
+Link : http://api.rei.my.id/api/hug <br/>
 Note : you can use https but if something error with the certificate i recommend to use http instead
 ```bash
 {
