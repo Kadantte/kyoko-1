@@ -70,3 +70,28 @@ const agent = new https.Agent({
 axios.get('https://api.rei.my.id/api/something', { httpsAgent: agent });
 </pre>
 </details>
+
+# Donation
+
+<details>
+  <summary>E-Wallet</summary>
+<table style="width:100%">
+  <tr>
+    <th>OVO</th>
+    <th>DANA</th>
+  </tr>
+  <tr>
+    <td><img src="https://i.ibb.co/sVw153k/ovo.png"/></td>
+    <td><img src="https://i.ibb.co/L5PL7JH/dana.png"/></td>
+  </tr>
+</table>
+</details>
+<details>
+  <summary>Cryptocurrency</summary>
+  <pre>
+BTC : bc1q6p56r9x4neqaw3ukaj30u9tar64cqumwhk4gjp
+ETH : 0x6DB31689151D2cdA2e8DB0d7d05285A1816Fa541
+BNB : bnb1dnpd3rwm8wkfydwzstshjktzjurve9vdnn38ua
+ZIL : zil1jzcx6u36v9yuagcpgysrgnukxql0m0w4dylz0l
+  </pre>
+</details>
