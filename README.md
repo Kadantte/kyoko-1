@@ -16,8 +16,7 @@ Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one c
 # Example Result
 
 Random Anime Quotes <br/>
-Link : http://api.rei.my.id/api/quotes <br/>
-Note : you can use https but if something error with the certificate i recommend to use http instead
+Link : https://api.rei.my.id/api/quotes <br/>
 ```bash
 {
     quote: "Just because I've gotten weaker, it doesn't mean that you've gotten stronger, right?",
@@ -28,8 +27,7 @@ Note : you can use https but if something error with the certificate i recommend
 ```
 
 Random Anime Slap <br/>
-Link : http://api.rei.my.id/api/slap <br/>
-Note : you can use https but if something error with the certificate i recommend to use http instead
+Link : https://api.rei.my.id/api/slap <br/>
 ```bash
 {
     url: "https://api.rei.my.id/images/slap/slap_008.gif"
@@ -37,8 +35,7 @@ Note : you can use https but if something error with the certificate i recommend
 ```
 
 Random Anime Kiss <br/>
-Link : http://api.rei.my.id/api/kiss <br/>
-Note : you can use https but if something error with the certificate i recommend to use http instead
+Link : https://api.rei.my.id/api/kiss <br/>
 ```bash
 {
     url: "https://api.rei.my.id/images/kiss/kiss_136.gif"
@@ -46,19 +43,19 @@ Note : you can use https but if something error with the certificate i recommend
 ```
 
 Random Anime Hug <br/>
-Link : http://api.rei.my.id/api/hug <br/>
-Note : you can use https but if something error with the certificate i recommend to use http instead
+Link : https://api.rei.my.id/api/hug <br/>
 ```bash
 {
     url: "https://api.rei.my.id/images/hug/hug_087.gif"
 }
 ```
-# Troubleshooting
+# Knowed Issues
 
-- AXIOS => Error: unable to verify the first certificate
-
-```javascript
+<details>
+  <summary>AXIOS => Error: unable to verify the first certificate ( Fixed in 1.0.2 )</summary>
+<pre>
 // copied from https://github.com/axios/axios/issues/535
+  
 const instance = axios.create({
   httpsAgent: new https.Agent({  
     rejectUnauthorized: false
@@ -71,6 +68,5 @@ const agent = new https.Agent({
   rejectUnauthorized: false
 });
 axios.get('https://api.rei.my.id/api/something', { httpsAgent: agent });
-
-```
-
+</pre>
+</details>
