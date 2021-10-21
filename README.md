@@ -49,7 +49,7 @@ Link : https://api.rei.my.id/api/hug <br/>
     url: "https://api.rei.my.id/images/hug/hug_087.gif"
 }
 ```
-# Knowed Issues
+# Known Issues
 
 <details>
   <summary>AXIOS => Error: unable to verify the first certificate ( Fixed in 1.0.2 )</summary>
