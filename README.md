@@ -10,58 +10,25 @@ Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one c
 
 Random Anime Quotes <br/>
 Link : https://api.rei.my.id/api/quotes <br/>
-```bash
-{
-    quote: "Just because I've gotten weaker, it doesn't mean that you've gotten stronger, right?",
-    anime: "Toaru Majutsu no Index",
-    id: 4436,
-    name: "Accelerator"
-}
-```
+<img width="800" src="https://i.ibb.co/xHPNVFD/quotes.png"/>
 
 Random Anime Slap <br/>
 Link : https://api.rei.my.id/api/slap <br/>
-```bash
-{
-    url: "https://api.rei.my.id/images/slap/slap_008.gif"
-}
-```
+<img width="800" src="https://i.ibb.co/k8VpK1z/slap.png"/>
 
 Random Anime Kiss <br/>
 Link : https://api.rei.my.id/api/kiss <br/>
-```bash
-{
-    url: "https://api.rei.my.id/images/kiss/kiss_136.gif"
-}
-```
+<img width="800" src="https://i.ibb.co/hYCbwBw/kiss.png"/>
 
 Random Anime Hug <br/>
 Link : https://api.rei.my.id/api/hug <br/>
-```bash
-{
-    url: "https://api.rei.my.id/images/hug/hug_087.gif"
-}
-```
+<img width="800" src="https://i.ibb.co/LkMfYwt/hug.png"/>
+
 # Known Issues
 
 <details>
-  <summary>AXIOS => Error: unable to verify the first certificate ( Fixed in 1.0.2 )</summary>
-<pre>
-// copied from https://github.com/axios/axios/issues/535
-  
-const instance = axios.create({
-  httpsAgent: new https.Agent({  
-    rejectUnauthorized: false
-  })
-});
-instance.get('https://api.rei.my.id/api/something');
-
-// At request level
-const agent = new https.Agent({  
-  rejectUnauthorized: false
-});
-axios.get('https://api.rei.my.id/api/something', { httpsAgent: agent });
-</pre>
+  <summary>Error: unable to verify the first certificate ( Fixed in 1.0.2 )[ SSL certificate verified by SSL For Free ]</summary>
+<img src="https://i.ibb.co/q1NQ53p/error1.png"/>
 </details>
 
 # Donation
@@ -81,10 +48,10 @@ axios.get('https://api.rei.my.id/api/something', { httpsAgent: agent });
 </details>
 <details>
   <summary>Cryptocurrency</summary>
-  <pre>
+<pre>
 BTC : bc1q6p56r9x4neqaw3ukaj30u9tar64cqumwhk4gjp
 ETH : 0x6DB31689151D2cdA2e8DB0d7d05285A1816Fa541
 BNB : bnb1dnpd3rwm8wkfydwzstshjktzjurve9vdnn38ua
 ZIL : zil1jzcx6u36v9yuagcpgysrgnukxql0m0w4dylz0l
-  </pre>
+</pre>
 </details>
