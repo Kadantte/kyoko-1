@@ -6,6 +6,11 @@
 
 Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one can keep up with her, but it's not as if anyone even tries in the first place, so it's ultimately no big deal. She is actually an otaku who creates her own doujinshi of Mirakurun, an anime character in Yuru Yuri.
 
+# Server Status
+
+Website Monitoring to check if API server is down or not<br/>
+http://status.rei.my.id/
+
 # Example Result
 
 Random Anime Quotes <br/>
