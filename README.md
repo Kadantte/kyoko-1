@@ -8,8 +8,13 @@ Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one c
 
 # Server Status
 
-Website Monitoring to check if API server is down or not<br/>
-http://status.rei.my.id/
+[**Migrasi Server Kyoko API**](https://blog.rei.my.id/migrasi-server-api-kyoko/) <br/>
+Kyoko API mulai hari ini telah berpindah server dari DigitalOcean menjadi InterServer. <br/>
+Kyoko API starting today has moved our servers from DigitalOcean to InterServer. 
+
+[**Website Monitoring**](http://status.rei.my.id/) <br/>
+Website untuk memonitoring apakah API server sedang down atau tidak. <br/>
+Website Monitoring to check if API server is down or not.
 
 # Example Result
 
