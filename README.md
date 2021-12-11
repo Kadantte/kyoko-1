@@ -8,9 +8,9 @@ Toshinou Kyouko is the founder of the amusement club. Goes so wild that no one c
 
 # Server Status
 
-[**Migrasi Server Kyoko API**](https://blog.rei.my.id/migrasi-server-api-kyoko/) <br/>
-Kyoko API mulai hari ini telah berpindah server dari DigitalOcean menjadi InterServer. <br/>
-Kyoko API starting today has moved our servers from DigitalOcean to InterServer. 
+[**Migrasi Server Dan Bahasa Kyoko API**](https://blog.rei.my.id/migrasi-server-api-kyoko/) <br/>
+Kyoko API mulai hari ini telah berpindah server dari DigitalOcean menjadi InterServer dan berganti back-end dari nodejs menjadi php. <br/>
+Kyoko API starting today has moved our servers from DigitalOcean to InterServer and change the back-end from nodejs to php. 
 
 [**Website Monitoring**](http://status.rei.my.id/) <br/>
 Website untuk memonitoring apakah API server sedang down atau tidak. <br/>
