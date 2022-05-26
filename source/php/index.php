@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>歳納京子 | REST API</title>
+    <title>歳納京子 | REST API | FREE ANIME MEME API</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>css/style.css">
@@ -19,10 +19,10 @@
             </div>
             <div class="links">
                 <ul>
-                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v2/quotes" target="”_blank”" class="button button2">Random Anime Quotes</a></li>
-                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v2/slap" target="”_blank”" class="button button2">Random Anime Slap</a></li>
-                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v2/kiss" target="”_blank”" class="button button2">Random Anime Kiss</a></li>
-                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v2/hug" target="”_blank”" class="button button2">Random Anime Hug</a></li><br>
+                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v3/quotes" target="”_blank”" class="button button2">Random Anime Quotes</a></li>
+                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v3/slap" target="”_blank”" class="button button2">Random Anime Slap</a></li>
+                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v3/kiss" target="”_blank”" class="button button2">Random Anime Kiss</a></li>
+                    <li><a href="<?php echo 'https://' . $_SERVER['SERVER_NAME'] .  '/' ?>v3/hug" target="”_blank”" class="button button2">Random Anime Hug</a></li><br>
                 </ul>
             </div>
         </div>
