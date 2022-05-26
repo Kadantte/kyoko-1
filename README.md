@@ -19,19 +19,19 @@ Website Monitoring to check if API server is down or not.
 # Example Result
 
 Random Anime Quotes <br/>
-Link : https://api.rei.my.id/v2/quotes <br/>
+Link : https://api.rei.my.id/v3/quotes <br/>
 <img width="800" src="https://i.ibb.co/xHPNVFD/quotes.png"/>
 
 Random Anime Slap <br/>
-Link : https://api.rei.my.id/v2/slap <br/>
+Link : https://api.rei.my.id/v3/slap <br/>
 <img width="800" src="https://i.ibb.co/k8VpK1z/slap.png"/>
 
 Random Anime Kiss <br/>
-Link : https://api.rei.my.id/v2/kiss <br/>
+Link : https://api.rei.my.id/v3/kiss <br/>
 <img width="800" src="https://i.ibb.co/hYCbwBw/kiss.png"/>
 
 Random Anime Hug <br/>
-Link : https://api.rei.my.id/v2/hug <br/>
+Link : https://api.rei.my.id/v3/hug <br/>
 <img width="800" src="https://i.ibb.co/LkMfYwt/hug.png"/>
 
 # Known Issues
