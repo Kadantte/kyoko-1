@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kyoko - 404 Not Found</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:title" content="Kyoko - 404 Not Found">
+    <meta name="robots" content="noindex">
+    <meta name="robots" content="nofollow">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kyoko.rei.my.id">
+    <meta property="og:description" content="Random anime pictures REST API">
+    <meta property="og:image" content="https://blog.rei.my.id/favicon.ico">
+    <meta name="keywords" content="nsfw, sfw, anime, waifu, pics, discord, api">
+    <link rel="icon" href="https://blog.rei.my.id/favicon.ico">
+    <meta http-equiv="refresh" content="10; url=https://kyoko.rei.my.id" />
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1,
+        h2,
+        h3,
+        p {
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            line-height: 10px;
+        }
+        .error {
+            font-size: 100px;
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+        <script>
+            var timeleft = 10;
+            var downloadTimer = setInterval(function() {
+                if (timeleft <= 0) {
+                    clearInterval(downloadTimer);
+                } else {
+                    document.getElementById("countdown").innerHTML = "You will be redirected to the homepage in " + timeleft;
+                }
+                timeleft -= 1;
+            }, 1000);
+        </script>
+</head>
+
+<body>
+    <img src="https://i.ibb.co/ydWTXyD/kyoko.png" width="160" />
+    <h1>歳納京子</h1>
+    <h3>Toshino Kyoko</h3>
+    <p class="error">404 Not Found</p>
+    <h3 id="countdown"></h3>
+</body>
+
+</html>
