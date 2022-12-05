@@ -12,7 +12,7 @@ Support Me!<br/>
 <br/>
 <br/>
 
-```json
+```
 Note:
 you can ajust the result by adding ?r=number or ?result=number to the url
 
