@@ -7,7 +7,7 @@
     "routes": [
         { "handle": "filesystem" },
         { "src": "/(.*)", "status": 404, "dest": "/404.html" },
-        { "src": "/api/request.php", "dest": "/404.html" },
-        { "src": "/api/index.php", "dest": "/index.html" }
+        { "src": "/api/request.php", "status": 200, "dest": "/404.html" },
+        { "src": "/api/index.php", "status": 200, "dest": "/index.html" }
     ]
   }

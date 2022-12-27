@@ -27,11 +27,11 @@ result:
     apiCode: 200,
     apiResult: {
         url: [
-           "https://i.waifu.pics/KBBuZ5R.jpg",
-           "https://i.waifu.pics/NOJicBh.png",
-           "https://i.waifu.pics/vI9Hgee.jpg",
-           "https://i.waifu.pics/-oA3loc.png",
-           "https://i.waifu.pics/BA_QzLq.jpg"
+           "https://i.rei.my.id/KBBuZ5R.jpg",
+           "https://i.rei.my.id/NOJicBh.png",
+           "https://i.rei.my.id/vI9Hgee.jpg",
+           "https://i.rei.my.id/-oA3loc.png",
+           "https://i.rei.my.id/BA_QzLq.jpg"
         ]
     }
 }

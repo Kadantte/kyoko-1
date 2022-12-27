@@ -15,6 +15,7 @@ for ($i = 0; $i < $result; $i++) {
     $request = json_decode($request, true);
     $waifu[] = $request['url'];
 }
+$waifu = preg_replace('/i\.waifu\.pics/','i.rei.my.id',$waifu);
 if($request == null) {
     $return = array(
         'apiTimestamp' => time(),
