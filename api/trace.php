@@ -4,36 +4,37 @@ error_reporting(0);
 require __DIR__ . '/request.php';
 header('Content-Type: application/json');
 
-if($_GET['r'] || $_GET['result']) {
-    $result = $_GET['r'] ? $_GET['r'] : $_GET['result'];
+if($_GET['q'] || $_GET['query']) {
+    $query = $_GET['q'] ? $_GET['q'] : $_GET['query'];
 } else {
-    $result = 1;
+    $return = array(
+        'apiTimestamp' => time(),
+        'apiStatus' => 'error',
+        'apiCode' => 400,
+        'apiMessage' => 'Bad Request, ?query=/?q= is required.'
+    );
+    echo json_encode($return, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+    exit;
 }
-$quote = [];
-for ($i = 0; $i < $result; $i++) {
-    $request = request('https://katanime.vercel.app/api/getrandom');
-    $request = json_decode($request, true);
-    $quote[] = $request['result'][0];
-}
-if($request == null) {
+
+$AnimeTrace = request("https://api.trace.moe/search?url=" . $query);
+$AnimeTrace = json_decode($AnimeTrace, true);
+
+if($AnimeTrace == null) {
     $return = array(
         'apiTimestamp' => time(),
         'apiStatus' => 'error',
         'apiCode' => 500,
         'apiMessage' => 'Internal Server Error'
     );
-    
     echo json_encode($return, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 } else {
-
+    
     $return = array(
         'apiTimestamp' => time(),
         'apiStatus' => 'success',
         'apiCode' => 200,
-        'apiResult' => $quote
+        'apiResult' => $AnimeTrace['result'][0]
     );
-    
     echo json_encode($return, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 }
-
-

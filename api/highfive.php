@@ -9,12 +9,13 @@ if($_GET['r'] || $_GET['result']) {
 } else {
     $result = 1;
 }
-$quote = [];
+$waifu = [];
 for ($i = 0; $i < $result; $i++) {
-    $request = request('https://katanime.vercel.app/api/getrandom');
+    $request = request('https://api.waifu.pics/sfw/highfive');
     $request = json_decode($request, true);
-    $quote[] = $request['result'][0];
+    $waifu[] = $request['url'];
 }
+$waifu = preg_replace('/i\.waifu\.pics/','i.rei.my.id',$waifu);
 if($request == null) {
     $return = array(
         'apiTimestamp' => time(),
@@ -30,7 +31,9 @@ if($request == null) {
         'apiTimestamp' => time(),
         'apiStatus' => 'success',
         'apiCode' => 200,
-        'apiResult' => $quote
+        'apiResult' => array(
+            'url' => $waifu
+        )
     );
     
     echo json_encode($return, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
