@@ -21,7 +21,7 @@ if($request == null) {
         'apiTimestamp' => time(),
         'apiStatus' => 'error',
         'apiCode' => 500,
-        'apiMessage' => 'Internal Server Error'
+        'apiResult' => 'Internal Server Error'
     );
     
     echo json_encode($return, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
