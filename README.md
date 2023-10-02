@@ -1,3 +1,5 @@
+# October, 1 2023 around 11PM to October, 2 2023 1AM our website kyoko.rei.my.id got DDOSed by random stranger, which make it unaccessible, so for other user. And because of that too I'm gonna paused Kyoko for unknown time starting from today, but don't worry you can still host it on your own hosting.
+
 <p align="center">
 <img src="https://i.ibb.co/ydWTXyD/kyoko.png" width="160"/><br/>
 <b>歳納京子</b><br/>
